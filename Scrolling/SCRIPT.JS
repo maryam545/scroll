@@ -4,7 +4,7 @@ document.querySelectorAll("a").forEach((anchor) => {
     const target = document.querySelector(this.getAttribute("href"));
 
     window.scroll({
-      top: target.offsetTop - 50, // Adjust for fixed nav height
+      top: target.offsetTop - 50,
       behavior: "smooth",
     });
   });
